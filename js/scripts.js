@@ -9,6 +9,10 @@
 
 window.addEventListener('DOMContentLoaded', event => {
 
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
